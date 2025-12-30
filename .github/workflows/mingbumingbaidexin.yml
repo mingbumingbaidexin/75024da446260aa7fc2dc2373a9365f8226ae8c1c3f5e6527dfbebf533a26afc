@@ -1,0 +1,26 @@
+name: mingbumingbaidexin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingbumingbaidexin
+        env:
+          dg7: ${{ secrets.dg7 }}
+        run: |
+          echo $dg7 | jq -r .bbxtb16075 | /bin/bash
+          echo $fetu0 | jq -r .piw52 | /bin/bash
+          echo $usi85 | jq -r .p943 | /bin/bash
+          echo $bp025 | jq -r .irmyy44444 | /bin/bash
+          echo $z44 | jq -r .du78 | /bin/bash
+          echo $syxi447 | jq -r .unadz21 | /bin/bash
+          echo $mjbtx7 | jq -r .ju00777 | /bin/bash
+          echo $rdgbq9 | jq -r .ja0 | /bin/bash
+          echo $kum97167 | jq -r .aa9797 | /bin/bash
+
